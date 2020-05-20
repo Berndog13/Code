@@ -1,0 +1,37 @@
+import java.util.Random;
+
+public class DowJones {
+
+	// instance variables
+	private String stockName;
+	private String marketName;
+	private int beginStockValue;
+//	private int totalValue;
+	// private int futureValue;
+	// static Random rnd = new Random();
+
+	// getters and setters
+	public String getstockName() {
+		return this.stockName;
+	}
+
+	public void setstockName(String stockName) {
+		this.stockName = stockName;
+	}
+
+	public String getmarketName() {
+		return this.marketName;
+	}
+
+	public void setmarketName(String marketName) {
+		this.marketName = marketName;
+	}
+
+	public int getbeginStockValue() {
+		return this.beginStockValue;
+	}
+
+	public void setbeginStockValue(int beginStockValue) {
+		this.beginStockValue = beginStockValue;
+
+	}
